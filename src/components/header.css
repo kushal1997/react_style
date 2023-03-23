@@ -1,20 +1,15 @@
-.logo{
-    max-width: 40px;
-    display: flex;
-    align-items: center;
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  align-items: center;
+  max-width: 1000px;
+  margin: auto;
+  border-bottom: 1px solid #d7d7d7;
+  font-size: 18px;
+  padding: 0px 10px;
 }
-header{
-    background-color: #FFFFFF;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    min-height: 70px;
-    padding: 0px 20px;
-    border-bottom: 1px solid #0000001a;
-}
-a{
-    margin-left: 10px;
-    font-size: 18px;
-    font-weight: 600;
-    color: #393E46;
+header img{
+  max-width: 40px;
 }

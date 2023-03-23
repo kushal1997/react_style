@@ -1,5 +1,6 @@
 import { Task } from './components/Task';
 import { Header } from './components/Header';
+import { Footer } from './components/Footer';
 import './App.css';
 
 function App(){
@@ -9,7 +10,7 @@ function App(){
     <div className="App">
         <Header/>
         <Task info={info}/>
-        
+        <Footer/>
     </div>
   );
 }
